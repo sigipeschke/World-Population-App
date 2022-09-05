@@ -1,0 +1,41 @@
+.flags {
+    display: grid;
+    grid-template-columns: repeat(6,16%);
+    margin: 8px;
+}
+.flag-item {
+    margin: 5px;
+    border: solid 2px grey;
+    border-radius: 0.5em;
+}
+.flag-country {
+    padding-left: 2.5%;
+    font-weight: 500;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.flag-country:hover {
+    overflow: visible;
+    background-color: rgb(214, 214, 214);
+}
+.flag-code {
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: 2px solid grey;
+}
+.flag-btn {
+    padding: 0;
+    border-radius: 0 0 0.5em 0.5em;
+    border: none;
+}
+.flag-img {
+    background-color: grey;
+    border-radius: 0 0 0.5em 0.5em;
+    border: none;
+    width: 100%;
+}
+.flag-img:hover {
+    opacity: 0.6;
+}

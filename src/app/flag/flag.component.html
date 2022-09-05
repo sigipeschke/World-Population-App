@@ -1,0 +1,22 @@
+
+<!--<p><span class="fi fi-gr"></span> Inline Flag!</p>-->
+
+<div class="flags" *ngIf="flagData$ | async as flags">
+    <div class="flag-item" *ngFor="let flag of flags">
+        <div class="flag-country">
+            <span class="flag-code">{{flag.code}}</span>{{flag.name}}
+        </div>
+        
+        <button type="button" class="flag-btn"
+                (click)="flagSelected(flag.name)">
+            <img class="flag-img" src="https://flagicons.lipis.dev/{{flag.flag_4x3}}">
+        </button>
+    </div>
+</div>
+
+<!--
+<button type="button" class="search-country-item" *ngFor = "let country of countries"
+                  [ngClass]="{ active: country?.countryCode === (selectedCountry$ | async)?.countryCode }"
+                  (click)="countrySelected(country.countryCode)">
+            {{country.countryName}}
+-->

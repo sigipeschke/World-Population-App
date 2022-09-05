@@ -1,0 +1,13 @@
+<div class="map-body" *ngIf = "worldData">
+    <div class="map-container">
+        <highcharts-chart
+            id="container" 
+            class="map-chart"
+            [Highcharts]="Highcharts"
+            [constructorType]="chartConstructor"
+            [options]="chartOptions"
+            [(update)]="updateChart"
+            style="width: 100%; height: 200%; display: block;">
+        </highcharts-chart>
+    </div>
+</div>

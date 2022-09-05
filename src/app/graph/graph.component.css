@@ -1,0 +1,13 @@
+.graph-body {
+    width: 100%;
+}
+
+.graph-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.graph-main {
+    width: 95%;
+}

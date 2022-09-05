@@ -1,0 +1,22 @@
+.search-dropdown {
+    justify-content: left;
+}
+
+.search-dropdown-active {
+    position: fixed;
+
+    background-color: transparent;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 999;
+    width: 240px;
+    left: 415px;
+    top: 80px;
+}
+
+.search-country-item {
+    background-color: bisque;
+    border-color: rgb(110, 99, 85);
+    border-width: 1px;
+    width: 100%;
+}

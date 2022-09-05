@@ -1,0 +1,13 @@
+<div class="graph-body"
+*ngIf = "popData$ | async as countries">
+    <div class="graph-container">
+        <canvas baseChart class="graph-main"
+        [type]="'line'"
+        [data]="lineChartData"
+        [options]="lineChartOptions"
+        [legend]="lineChartLegend">
+        </canvas>
+    </div>
+</div>
+
+<app-flag></app-flag>
