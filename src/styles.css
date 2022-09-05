@@ -1,8 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "~bootstrap/dist/css/bootstrap.css";
-@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
-@import "~flag-icons/css/flag-icons.min.css"; /*https://github.com/lipis/flag-icons*/
+/*@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
+@import "~flag-icons/css/flag-icons.min.css"; https://github.com/lipis/flag-icons*/
 
 body{
     margin-top:20px;
