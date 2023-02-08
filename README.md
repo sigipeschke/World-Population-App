@@ -1,4 +1,4 @@
-# Pupulation Insights
+# Population Insights
 
 ## Description
 
