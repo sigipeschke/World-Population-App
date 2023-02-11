@@ -24,9 +24,11 @@ HTML, CSS, TypeScript, Angular, ChartJS, Highcharts, RxJS, NodeJS
 
 ### Interactive Map
 ![alt text](https://github.com/sigipeschke/World-Population-App/blob/master/src/assets/population-img.PNG)
+<br /><br />
 
 ### Growth Charts
 ![alt text](https://github.com/sigipeschke/World-Population-App/blob/master/src/assets/population-img-2.PNG)
+<br /><br />
 
 ## Getting Started
 
