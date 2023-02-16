@@ -18,7 +18,7 @@ Flag Icons sourced from https://github.com/lipis/flag-icons/
 
 ## Technologies
 
-HTML, CSS, TypeScript, Angular, ChartJS, Highcharts, RxJS, NodeJS
+HTML, CSS, TypeScript, Angular, ChartJS, Highcharts, RxJS
 
 ## Screenshots
 
