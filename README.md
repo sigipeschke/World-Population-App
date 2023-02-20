@@ -4,7 +4,7 @@
 
 Explore the world's population trends and patterns with Population Insights. This interactive project allows you to dive into the data and uncover insights about population growth for individual countries as well as the current population distribution across the world. The project provides a visually engaging and user-friendly way to discover and understand the world's population data.
 
-See the project live here: https://world-population-app-sp.herokuapp.com/
+See the project live here: https://sp-population-insights.vercel.app/world-map
 
 ## Features
 
