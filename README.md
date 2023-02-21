@@ -1,27 +1,45 @@
-# PopulationApp
+# Population Insights
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+## Description
 
-## Development server
+Explore the world's population trends and patterns with Population Insights. This interactive project allows you to dive into the data and uncover insights about population growth for individual countries as well as the current population distribution across the world. The project provides a visually engaging and user-friendly way to discover and understand the world's population data.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+See the project live here: https://sp-population-insights.vercel.app/world-map
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The growth chart page allows the user to select a country from a list or search for it and view its population growth over time on a graph.
 
-## Build
+The distribution page features an interactive map of the world showing the population distribution among countries with color-coded representation of population size. Users can explore the data by hovering over each country to see the exact population figures and compare it with others.
+
+Population data sourced from https://data.worldbank.org/indicator/SP.POP.TOTL
+
+Flag Icons sourced from https://github.com/lipis/flag-icons/
+
+## Technologies
+
+HTML, CSS, TypeScript, Angular, ChartJS, Highcharts, RxJS
+
+## Screenshots
+
+### Interactive Map
+![alt text](https://github.com/sigipeschke/World-Population-App/blob/master/src/assets/population-img.PNG)
+<br /><br />
+
+### Growth Charts
+![alt text](https://github.com/sigipeschke/World-Population-App/blob/master/src/assets/population-img-2.PNG)
+<br /><br />
+
+## Getting Started
+
+### Install dependencies
+
+Run `npm install`
+
+### Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
+
+### Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
