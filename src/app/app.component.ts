@@ -22,6 +22,12 @@ export class AppComponent {
   private countrySearchedSubject = new BehaviorSubject<string>("");
   countrySearchedAction$ = this.countrySearchedSubject.asObservable();
 
+  searchVisible = true;
+  routerActivateEvent(event: any): void {
+    if (event.constructor.name == 'GraphComponent') {this.searchVisible = true}
+    else {this.searchVisible = false}
+  }
+
   dropdownVisible = false;
   private _countryFilter: string = "";
   get countryFilter(): string {

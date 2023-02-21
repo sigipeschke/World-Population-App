@@ -282,7 +282,7 @@ export class MapComponent implements OnInit {
     this.popData$.subscribe({
       next: (popData) => {
         this.formatData(popData!);
-        console.log(this.worldData);
+        // console.log(this.worldData);
         this.updateMap();
       },
       error: (e) => console.error(e)
@@ -322,12 +322,16 @@ export class MapComponent implements OnInit {
         min: 0,
         max: 200,
         stops: [
-          [0.1, '#dceff5'],
-          [0.3, '#87abd6'],
-          [0.5, '#5c81b5'],
-          [0.6, '#5470b3'],
-          [0.9, '#2843b8'],
-          [1, '#0f11a6']
+          [0, '#c4c4ff'],
+          [0.005, '#8989ff'], //1 B
+          [0.25, '#4e4eff'], //5 B
+          [0.05, '#b1ffb1'], //10 G
+          [0.125, '#76ff76'], //25 G
+          [0.25, '#3bff3b'], //50 G
+          [0.375, '#ffb1b1'], //75 R
+          [0.5, '#ff7676'], //100 R
+          [0.75, '#ff3b3b'], //150 R
+          [1, '#b10000']
       ]
       },
       series: [
@@ -336,7 +340,7 @@ export class MapComponent implements OnInit {
           name: "Population data",
           states: {
             hover: {
-              color: "#BADA55"
+              color: "#ff89ff"
             }
           },
           dataLabels: {

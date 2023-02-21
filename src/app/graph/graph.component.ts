@@ -121,7 +121,7 @@ export class GraphComponent implements OnInit {
     ]
   };
   public lineChartOptions: ChartOptions<'line'> = {
-    responsive: false
+    responsive: true
   };
   public lineChartLegend = true;
 
@@ -161,7 +161,7 @@ export class GraphComponent implements OnInit {
         }
       ]
     };
-    console.log('Data conglomerated');
+    // console.log('Data conglomerated');
   };
 
 }
