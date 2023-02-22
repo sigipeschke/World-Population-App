@@ -22,8 +22,9 @@ export class AppComponent {
   private countrySearchedSubject = new BehaviorSubject<string>("");
   countrySearchedAction$ = this.countrySearchedSubject.asObservable();
 
-  searchVisible = true;
+  searchVisible = false;
   routerActivateEvent(event: any): void {
+    console.log(event.constructor.name)
     if (event.constructor.name == 'GraphComponent') {this.searchVisible = true}
     else {this.searchVisible = false}
   }
