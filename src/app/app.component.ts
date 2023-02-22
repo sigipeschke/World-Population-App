@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { BehaviorSubject, combineLatest, map, catchError, EMPTY } from 'rxjs';
 import { PopDataService } from './model/popdata.service';
 
@@ -23,11 +24,9 @@ export class AppComponent {
   countrySearchedAction$ = this.countrySearchedSubject.asObservable();
 
   searchVisible = false;
-  routerActivateEvent(event: any): void {
-    console.log(event)
-    console.log(event.constructor)
-    console.log(event.constructor.name)
-    if (event.constructor.name == 'GraphComponent') {this.searchVisible = true}
+  routerGraphActiveEvent(event: any): void {
+    // console.log(event)
+    if (event) {this.searchVisible = true}
     else {this.searchVisible = false}
   }
 
