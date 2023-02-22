@@ -24,6 +24,8 @@ export class AppComponent {
 
   searchVisible = false;
   routerActivateEvent(event: any): void {
+    console.log(event)
+    console.log(event.constructor)
     console.log(event.constructor.name)
     if (event.constructor.name == 'GraphComponent') {this.searchVisible = true}
     else {this.searchVisible = false}
